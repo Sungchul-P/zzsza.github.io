@@ -1,8 +1,8 @@
 ---
 layout: tag-blog
-title: diary
-slug: diary
-category: diary
+title: life
+slug: life
+category: life
 menu: false
 order: 1
 ---

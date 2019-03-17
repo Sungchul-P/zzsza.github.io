@@ -4,7 +4,7 @@ title: ETC
 slug: etc
 menu: true
 submenu: true
-order: 6
+order: 4
 description: >
-  기타 정보
+  기타 정보. 책. 강의..
 ---

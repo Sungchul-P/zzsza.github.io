@@ -4,7 +4,7 @@ title: Development
 slug: development
 menu: true
 submenu: true
-order: 5
+order: 3
 description: >
-  개발 전반적인 지식에 대해 작성하는 공간
+  프로그래밍 언어 및 개발 환경에 대한 이야기
 ---
