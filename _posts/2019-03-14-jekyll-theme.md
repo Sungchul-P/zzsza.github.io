@@ -7,6 +7,13 @@ tags: git
 comments: true
 ---
 
+- Jekyll 특정 테마로 적용하는 글 입니다.
+	- 테마별로 구조는 다양합니다.
+	- JalPc 테마를 기준으로 커스텀하는 방법을 알아봅니다.
+
+---
+
+
 ## 1. 적용할 테마 찾기
 
   
@@ -17,7 +24,7 @@ comments: true
 
 포트폴리오처럼 꾸밀 수 있어서 선택하게 됐고, 이 블로그에 사용된 테마이기도 하다. 
 
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-54-14.png){: .wh70 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-54-14.png){: .wh70 .center}   
 
 <br/>
 ## 2. 테마 다운로드 및 설치
@@ -26,19 +33,19 @@ comments: true
   
 ZIP 파일을 직접 다운로드 받아도 되고, git clone을 사용해서 받아도 된다.  
    
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-55-57.png){: .wh70 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-55-57.png){: .wh70 .center}   
   
 
 압축을 해제(또는 git clone으로 복제)하면 다음과 같은 파일들이 확인된다.  
 
  
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-56-14.png){: .wh70 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-56-14.png){: .wh70 .center}   
  
 
 
 위 파일들을 테마를 적용할 GitPage Repository 작업공간에 복사한다.
 
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-57-01.png){: .wh70 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-57-01.png){: .wh70 .center}   
 
 
 <br>
@@ -63,14 +70,14 @@ ZIP 파일을 직접 다운로드 받아도 되고, git clone을 사용해서 �
 	- **url** : https://deuter431.github.io/  
 
  
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-58-03.png){: .wh70 .center}    
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-58-03.png){: .wh70 .center}    
  
 
 * `_data/landing.yml` : 메인 페이지의 섹션을 관리하는 파일이다.
   
 * `_data/index/` : 메인 페이지의 각 섹션에 대한 파일이 있는 경로다.  
   
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-59-43.png){: .wh30 .center}  
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-13-59-43.png){: .wh30 .center}  
 
    
 * `_data/blog.yml` : 블로그 페이지의 카테고리를 관리한다.  
@@ -83,7 +90,7 @@ ZIP 파일을 직접 다운로드 받아도 되고, git clone을 사용해서 �
     
 * 기타 다른 페이지 설정 관련  
   
- ![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-00-25.png){: .wh70 .center}   
+ ![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-00-25.png){: .wh70 .center}   
 
 
 <br/>
@@ -97,13 +104,13 @@ ZIP 파일을 직접 다운로드 받아도 되고, git clone을 사용해서 �
 > jekyll serve
 
   
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-00-58.png){: .wh70 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-00-58.png){: .wh70 .center}   
 
   
 <a href="http://127.0.0.1:4000">http://127.0.0.1:4000</a>로 페이지를 확인할 수 있다.
 
  
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-05-57.png){: .wh70 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-05-57.png){: .wh70 .center}   
  
 
 <br>
@@ -115,12 +122,12 @@ Git 사용에 대한 자세한 내용은 [GitHub Pages로 무료 호스팅하기
   
 * Staging & Commit
   
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-06-26.png){: .wh50 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-06-26.png){: .wh50 .center}   
   
 
 * Push
     
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-06-39.png){: .wh30 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-06-39.png){: .wh30 .center}   
  
 
 <br>
@@ -168,11 +175,11 @@ Each line means:
    
 > bundle install  
   
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-08-19.png){: .wh50 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-08-19.png){: .wh50 .center}   
   
 * [admin](http://127.0.0.1:4000/admin)`( http://127.0.0.1:4000/admin )` 페이지를 확인해 보자.  
     
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-09-38.png){: .wh50 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-09-38.png){: .wh50 .center}   
 
 
  
@@ -183,7 +190,7 @@ Each line means:
   
 
  
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-10-01.png){: .wh50 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-10-01.png){: .wh50 .center}   
  
 
  
@@ -209,14 +216,14 @@ Each line means:
 편하게 사용하기 위해 확장 프로그램의 설정을 추가하자.  
 
 
-![](/static/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-10-54.png){: .wh50 .center}   
+![](/assets/img/blog/2019-03-14-jekyll-theme/2019-03-14-14-10-54.png){: .wh50 .center}   
 
 
 VS 코드에서 F1을 누르고 `Open Settings (JSON)` 를 검색하여 아래 내용을 추가하자.  
 
 
 ```json
-"pasteImage.path": "${projectRoot}/static/assets/img/blog/${currentFileNameWithoutExt}",
+"pasteImage.path": "${projectRoot}/assets/img/blog/${currentFileNameWithoutExt}",
 "pasteImage.basePath": "${projectRoot}",
 "pasteImage.forceUnixStyleSeparator": true,
 "pasteImage.prefix": "/",

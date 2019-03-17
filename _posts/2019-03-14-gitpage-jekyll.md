@@ -7,6 +7,10 @@ tags: git
 comments: true
 ---
 
+- GitHub Page는 Jekyll을 이용하여 꾸밀 수 있습니다.
+	- Jekyll 기본 테마를 내 페이지에 적용해 보는 글입니다.
+
+---
 
 ## 1. 준비물 
 
@@ -19,11 +23,11 @@ comments: true
 
 [Ruby Download](https://www.ruby-lang.org/en/downloads/)  
  
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-19-22.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-19-22.png){: width="50%" height="50%"}  
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-20-10.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-20-10.png){: width="50%" height="50%"}  
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-20-33.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-20-33.png){: width="50%" height="50%"}  
 
 <br>
 
@@ -32,7 +36,7 @@ comments: true
   * 선택 창이 뜨는 데,
   * `3 - MSYS2 and MINGW development toolchain` 을 선택하자!
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-30-04.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-30-04.png){: width="50%" height="50%"}  
 
 
 <br>
@@ -44,7 +48,7 @@ comments: true
 > gem install jekyll bundler  
 
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-32-37.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-32-37.png){: width="50%" height="50%"}  
 
 <br>
  
@@ -54,7 +58,7 @@ comments: true
 
 
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-33-08.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-33-08.png){: width="50%" height="50%"}  
 
 <br> 
 
@@ -63,7 +67,7 @@ comments: true
 > jekyll new jekyll-website  
 
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-33-40.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-33-40.png){: width="50%" height="50%"}  
  
  
 <br>
@@ -73,7 +77,7 @@ comments: true
 
 기본 테마로 만들어진 디렉터리의 구성은 다음과 같다.
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-41-24.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-41-24.png){: width="50%" height="50%"}  
 
 <br>
 GitPage에 적용하기 전에 Jekyll 서버로 개발 환경에서 확인할 수 있다.
@@ -85,13 +89,13 @@ GitPage에 적용하기 전에 Jekyll 서버로 개발 환경에서 확인할 �
 
 http://127.0.0.1:4000 으로 페이지에 접근할 수 있다.
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-50-37.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-50-37.png){: width="50%" height="50%"}  
 
 <br>
 기본 테마 메인페이지는 아래와 같다.
 
 
-![](/static/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-51-03.png){: width="50%" height="50%"}  
+![](/assets/img/blog/2019-03-14-gitpage-jekyll/2019-03-14-03-51-03.png){: width="50%" height="50%"}  
 
 GitPage를 생성할 때 만들어 놓은 Repository 작업 환경으로 jekyll-website 디렉터리의 내용을 이동시킨 다음, 
 Git 으로 Commit & Push 한다.
