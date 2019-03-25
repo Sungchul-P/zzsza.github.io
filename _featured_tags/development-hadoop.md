@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Linux
-slug: linux
+title: Hadoop
+slug: hadoop
 category: development
 menu: false
 order: 1
