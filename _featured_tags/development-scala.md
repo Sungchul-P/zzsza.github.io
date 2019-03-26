@@ -4,5 +4,5 @@ title: Scala
 slug: scala
 category: development
 menu: false
-order: 5
+order: 3
 ---
