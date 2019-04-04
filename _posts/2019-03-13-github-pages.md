@@ -1,10 +1,11 @@
 ---
 layout: post
 title: GitHub Pages로 무료 호스팅하기
-subtitle: GitHub Pages로 무료 호스팅
+description: GitHub Pages로 무료 호스팅
 categories: development
 tags: git
 comments: true
+keywords: "gitpage,git,vscode"
 ---
 
 - GitHub에서 무료로 제공하는 도메인을 이용하는 방법입니다.

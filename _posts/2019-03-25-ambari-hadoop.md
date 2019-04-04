@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Ambari를 이용한 호튼웍스 HDP-3.1 설치
-subtitle: Ambari를 이용한 호튼웍스 HDP-3.1 설치
+description: Ambari를 이용한 호튼웍스 HDP-3.1 설치
 categories: data
 tags: engineering
 comments: true
+keywords: "ambari,hdp,hadoop,cluster"
 ---
 
 - Ambari를 이용하여 호튼웍스의 HDP-3.1 환경을 구축합니다.

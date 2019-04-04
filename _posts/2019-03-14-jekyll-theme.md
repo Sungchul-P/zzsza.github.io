@@ -1,10 +1,11 @@
 ---
 layout: post
 title: Jekyll 테마 변경하기
-subtitle: Jekyll 테마 변경하기
+description: Jekyll 테마 변경하기
 categories: development
 tags: git
 comments: true
+keywords: "Jekyll,Gitpage,jekyllthemes"
 ---
 
 - Jekyll 특정 테마로 적용하는 글 입니다.
