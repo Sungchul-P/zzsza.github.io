@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ambari를 이용한 호튼웍스 HDP-3.1 설치
-description: Ambari를 이용한 호튼웍스 HDP-3.1 설치
+desc: Ambari를 이용한 호튼웍스 HDP-3.1 설치
 categories: data
 tags: engineering
 comments: true

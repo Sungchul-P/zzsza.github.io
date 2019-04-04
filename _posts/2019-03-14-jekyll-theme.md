@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Jekyll 테마 변경하기
-description: Jekyll 테마 변경하기
+desc: Jekyll 테마 변경하기
 categories: development
 tags: git
 comments: true

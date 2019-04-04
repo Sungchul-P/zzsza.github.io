@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitPage에 Jekyll 기본 테마 적용하기
-description: GitPage에 Jekyll 기본 테마 적용하기
+desc: GitPage에 Jekyll 기본 테마 적용하기
 categories: development
 tags: git
 comments: true

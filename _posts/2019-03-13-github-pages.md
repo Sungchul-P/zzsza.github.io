@@ -1,7 +1,7 @@
 ---
 layout: post
 title: GitHub Pages로 무료 호스팅하기
-description: GitHub Pages로 무료 호스팅
+desc: GitHub Pages로 무료 호스팅
 categories: development
 tags: git
 comments: true
