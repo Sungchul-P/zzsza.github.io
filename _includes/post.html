@@ -13,8 +13,10 @@
       {% include tag-list.html tags=post.categories meta=site.featured_categories start_with="in " separator=" / " %}
       {% include tag-list.html tags=post.tags meta=site.featured_tags start_with="on " separator=", " %}
     </p>
+    {% comment %}     
+    {% include message.html text=post.description %} 
+    {% endcomment %}
 
-    {% include message.html text=post.description %}
   </header>
   {% for tag_slug in post.tags %}
     {% unless tag.header-img %}
