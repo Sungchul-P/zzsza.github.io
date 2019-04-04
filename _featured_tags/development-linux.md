@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Scala
-slug: scala
+title: Linux
+slug: linux
 category: development
 menu: false
 order: 3
